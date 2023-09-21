@@ -1,0 +1,32 @@
+{
+  "name": "miniparcelet",
+  "version": "1.0.0",
+  "description": "minimal parcel + PostCSS starter template",
+  "scripts": {
+    "start": "npx parcel src/index.html",
+    "build": "rm -rf dist && npx parcel build src/index.html --public-url ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoyangtsai/miniparcelet.git"
+  },
+  "keywords": [
+    "parcel",
+    "template"
+  ],
+  "author": "Hoyang Tsai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoyangtsai/miniparcelet/issues"
+  },
+  "homepage": "https://github.com/hoyangtsai/miniparcelet#readme",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.8.3",
+    "@parcel/transformer-webmanifest": "^2.8.3",
+    "parcel": "^2.9.1",
+    "postcss": "^8.4.23",
+    "postcss-custom-properties": "^13.1.5",
+    "postcss-import": "^15.1.0",
+    "postcss-url": "^10.1.3"
+  }
+}
